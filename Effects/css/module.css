@@ -1,0 +1,45 @@
+/**
+ * style for ui modules
+ */
+
+.ismart-point{
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50px;
+	background-color: #272822;
+	/*background-image: -webkit-linear-gradient(90deg, #272822 25%, #4B4D43);*/
+	position: absolute;
+	top:0;
+	left:0;
+	line-height: 0;
+}
+
+.ismart-point:hover {
+	box-shadow: 0 0 5px #272822;
+}
+
+.ismart-line{
+	display: block;
+	height: 4px;
+	width: 100px;
+	border-radius: 2px;
+	background-color:#272822;
+	box-shadow:0px 0px 5px 1px rgba(39,40,34,0.5);
+	-webkit-transform-origin:left bottom;
+	-webkit-transform: rotate(30deg);
+}
+
+.ismart-rectangle{
+	display: block;
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100px;
+	height: 100px;
+	border: #272822 1px solid;
+}
+
+.ismart-rectangle.select {
+	box-shadow: 0 0 10px #6AC62E;
+}
